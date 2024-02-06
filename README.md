@@ -3,3 +3,7 @@
 On Windows:
 
 `Set-ExecutionPolicy Bypass -Scope Process -Force; .\local-windows.ps1`
+
+on linux:
+
+`bash local-linux.sh`
