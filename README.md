@@ -15,3 +15,7 @@ On Linux:
 On Darwin(Mac):
 
 `zsh local-darwin.sh`
+
+###  Test
+Test space for git pull and push practice:
+
