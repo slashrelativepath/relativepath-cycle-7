@@ -16,3 +16,11 @@ else
   sudo apt install -y git
 fi
 
+if (which multipass) 
+then
+  echo "mutlipass already  installed"
+else
+  echo "installing multipass"
+  sudo snap install -y  multipass
+fi
+
