@@ -31,15 +31,15 @@ else
   choco install -y nano
 }
 
-if ( git config --global --get user.email )
+if ( get-command multipass )
 {
-  write-host "git user email already set."
+  write-host "multipass already installed."
 }
 else
 {
-  write-host "git user.email not set."
-  write-host "run: git config --global user.email YOUREMAIL"
-  write-host "run: git config --global user.name YOURNAME"
+  write-host "installing multipass"
+  choco install -y virtualbox
+  choco install -y multipass --params="'/HyperVisor:VirtualBox'"
 }
 
 
