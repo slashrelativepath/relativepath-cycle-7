@@ -1,0 +1,2 @@
+multipass launch --name relativepath
+
