@@ -1,16 +1,3 @@
-# Ensure folks know what is going to be installed!
-write-host "This script with install Choco, Git, Nano, Virtualbox, and Multipass"
-
-# Stack Overflow:
-# https://stackoverflow.com/questions/24649019/how-to-use-confirm-in-powershell
-
-$confirmation = Read-Host "Are you Sure You Want To Proceed? [Y/N]"
-if ($confirmation -eq 'n' || $confirmation -eq 'N' ) {
-    exit
-} else {
-    Write-Host "Continuing"
-}
-
 # install choco
 if ( get-command choco )
 {

@@ -2,6 +2,9 @@
 
 A set of scripts to manage different systems.
 
+## warning:
+This script will install Choco, Nano, Git, Multipass, and VirtualBox(windows)
+
 ## usage
 
 On Windows:
