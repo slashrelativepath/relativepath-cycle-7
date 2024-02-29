@@ -1,0 +1,8 @@
+#cloud-config
+
+users:
+  - default
+  - name: zaylon
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBQAOxjrfNJGGuyFi3U+hxMUiCbxQc6w0NFxrFIX8ybY zayf@zayf-Inspiron-5570
+    shell: /bin/bash

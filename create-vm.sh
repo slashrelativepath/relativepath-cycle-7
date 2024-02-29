@@ -11,5 +11,5 @@ then
   echo "Relative Path VM already exists!"
 else
   echo "Launching Relative Path VMs"
-  multipass launch --name relativepath
+  multipass launch --name relativepath --cloud-init cloud-init.yaml
 fi
