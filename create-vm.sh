@@ -13,3 +13,6 @@ else
   echo "Launching Relative Path VMs"
   multipass launch --name relativepath --cloud-init cloud-init.yaml
 fi
+
+ssh -i id_ed25519 zaylon@$(multipass info relativepath | grep IPv4 | awk '{ print $2 }')
+
