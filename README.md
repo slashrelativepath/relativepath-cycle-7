@@ -4,11 +4,21 @@ A set of scripts to manage different systems.
 
 ## Create a WebServer
 
-Create virtual machine and install nginx.
+* A nginx web server
+	* serving default web page
+* A fully updated and upgraded ubuntu server 22.04 LTS
+* target x86_64 architecture
+* fully automated in shell scripts
+* local dev environment in multipass VM 
+* Fully documented process
 
-### Specifications
-* ubuntu virtual machine
-* nginx
+## Dependencies
+
+- ubuntu server 22.04 LTS
+- hypervisor: multipass (virtualbox, QEMU)
+- web server (nginx)
+- package manager (apt, brew, chocolatey)
+- text editor (nano)
 
 ## warning:
 This script will install Choco, Nano, Git, Multipass, and VirtualBox(windows)
