@@ -1,6 +1,6 @@
 multipass delete relativepath --purge
 if (stat id_ed25519)
-  echo "Removing SSH key pairs"
+  echo "Removing SSH key pairs."
   rm -f id_ed25519*
   echo "SSH key pairs removed."
 else
