@@ -2,6 +2,14 @@
 
 A set of scripts to manage different systems.
 
+## Create a WebServer
+
+Create virtual machine and install nginx.
+
+### Specifications
+* ubuntu virtual machine
+* nginx
+
 ## warning:
 This script will install Choco, Nano, Git, Multipass, and VirtualBox(windows)
 
@@ -21,3 +29,8 @@ On Linux:
 On Darwin(Mac):
 
 `zsh local-darwin.sh`
+
+#### Contributors
+
+Stephen Relativepath
+Christopher Forti
