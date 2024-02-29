@@ -4,13 +4,13 @@ A set of scripts to manage different systems.
 
 ## Create a WebServer
 
-* A nginx web server
-	* serving default web page
-* A fully updated and upgraded ubuntu server 22.04 LTS
-* target x86_64 architecture
-* fully automated in shell scripts
-* local dev environment in multipass VM 
-* Fully documented process
+- A nginx web server
+  - serving default web page
+- A fully updated and upgraded ubuntu server 22.04 LTS
+- target x86_64 architecture
+- fully automated in shell scripts
+- local dev environment in multipass VM
+- Fully documented process
 
 ## Dependencies
 
@@ -21,6 +21,7 @@ A set of scripts to manage different systems.
 - text editor (nano)
 
 ## warning:
+
 This script will install Choco, Nano, Git, Multipass, and VirtualBox(windows)
 
 ## usage
@@ -39,6 +40,15 @@ On Linux:
 On Darwin(Mac):
 
 `zsh local-darwin.sh`
+
+## Built with
+
+<p>
+<img > 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-plain.svg" height="50" width="50" hspace="5px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-plain.svg" height="50" width="50" hspace="5px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg" height="50" width="50" hspace="5px" />
+</p>
 
 #### Contributors
 
