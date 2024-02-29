@@ -44,7 +44,7 @@ On Darwin(Mac):
 ## Built with
 
 <p>
-<img > 
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-plain.svg" height="50" width="50" hspace="5px" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-plain.svg" height="50" width="50" hspace="5px" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg" height="50" width="50" hspace="5px" />
