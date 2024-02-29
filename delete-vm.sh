@@ -1,13 +1,15 @@
 multipass delete relativepath --purge
+
 if (stat id_ed25519)
-  echo "Removing SSH key pairs."
+then
+  echo "removing ssh key"
   rm -f id_ed25519*
-  echo "SSH key pairs removed."
 else
-  echo "No SSH key detected."
+  echo "ssh keys do not exist"  
 fi
 
 if (stat cloud-init.yaml)
+then
   echo "Removing cloud-init.yaml"
   rm cloud-init.yaml
   echo "Cloud-init.yaml removed."
