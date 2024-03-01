@@ -31,4 +31,4 @@ else
   multipass launch --name relativepath --cloud-init cloud-init.yaml
 fi
 
-ssh -o StrictHostKeyChecking=no -i "./id_ed25519" $(whoami | cut -d '\' -f2)@$(multipass info relativepath | grep IPv4 | awk '{ print $2 }')
+ssh -o StrictHostKeyChecking=no -i "./id_ed25519" "$(whoami | cut -d '\' -f2)@$(multipass info relativepath | grep IPv4 | awk '{ print $2 }')"
