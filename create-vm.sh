@@ -15,7 +15,7 @@ else
 #cloud-config
 users:
   - default
-  - name: $USER
+  - name: $(whoami | cut -d '\' -f2)
     sudo: ALL=(ALL) NOPASSWD:ALL
     shell: /bin/bash
     ssh_authorized_keys:
@@ -31,4 +31,4 @@ else
   multipass launch --name relativepath --cloud-init cloud-init.yaml
 fi
 
-ssh -o StrictHostKeyChecking=no -i "./id_ed25519" $USER@$(multipass info relativepath | grep IPv4 | awk '{ print $2 }')
+ssh -o StrictHostKeyChecking=no -i "./id_ed25519" $(whoami | cut -d '\' -f2)@$(multipass info relativepath | grep IPv4 | awk '{ print $2 }')
