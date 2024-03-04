@@ -44,9 +44,9 @@ On Darwin(Mac):
 ## Built with
 
 <p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-plain.svg" height="80" width="80" hspace="10px" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-plain.svg" height="80" width="80" hspace="10px" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg" height="80" width="80" hspace="10px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg"  height="80" width="80" hspace="10px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" height="80" width="80" hspace="10px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" height="80" width="80" hspace="10px" />
 </p>
 
 #### Contributors
